@@ -1,4 +1,3 @@
-import './App.css'
 import Bunk from './components/Bunk'
 function App() {
 
