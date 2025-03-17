@@ -1,0 +1,73 @@
+body{
+    background-color:#4D55CC ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden; 
+    margin: 0;
+    background: linear-gradient(135deg, #4D55CC, #2C2F8D); /* Smooth gradient */
+    font-family: "Big Shoulders", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h1{
+    padding-bottom: 35px;
+
+}
+label{
+    padding-bottom: 10px;
+    font-size: larger;
+}
+p{
+    font-size: larger;
+
+}
+.container{
+
+    background-color: #B5A8D5;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    height: 80vh;
+    padding: 0px 45px;
+    width: 80%;    
+}
+
+.container input{
+    width: 140px;
+    text-align: center;
+
+}
+
+.container{
+    backdrop-filter: blur(5px);
+    border-top: 5px solid rgba(33, 28, 132, 0.4);
+    border-left: 5px solid rgba(33, 28, 132, 0.3);
+    border-radius: 25px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, .9);
+
+}
+
+    
+    .container {
+        color: black;
+        background: rgba(255, 255, 255, 0.1); /* Transparent white for glass effect */
+        backdrop-filter: blur(10px) saturate(150%);
+        padding: 20px;
+        border-radius: 25px;
+        border: 2px solid rgba(255, 255, 255, 0.2);
+        box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.3);
+        width: 350px;
+        text-align: center;
+    }
+    input[type="number"] {
+        appearance: textfield;
+    }
+
+    .emoji{
+        font-size: 2rem;
+    }
